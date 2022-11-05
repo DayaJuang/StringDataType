@@ -16,5 +16,10 @@ public class Main {
 
         System.out.println(numString);
 
+        int num = 7;
+        numString = numString + num;
+
+        System.out.println(numString);
+
     }
 }
