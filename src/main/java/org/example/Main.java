@@ -1,5 +1,20 @@
-package org.example;public class Main {
+package org.example;
+
+public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        String myString = "This is my String";
+
+        System.out.println(myString);
+
+        myString = myString + " Appended";
+
+        System.out.println(myString);
+
+        // Number String
+        String numString = "123";
+        numString = numString + "456";
+
+        System.out.println(numString);
+
     }
 }
